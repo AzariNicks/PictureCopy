@@ -1,0 +1,46 @@
+#toplip {
+
+ background-color: rgb(71, 67, 67);
+    position:absolute;   
+    top: 0%;
+    width: 100%;
+    height: 14%;
+    display:flex;
+    justify-content:center;
+}
+#BottomLip {
+
+    background-color: rgb(34, 33, 33);
+       position: absolute;
+       bottom: 0%;
+       width: 100%;
+        height: 7%;
+       display:flex;
+       justify-content:center;
+       z-index: 1;
+   }
+#leftshade {
+
+
+    left: 0px;
+
+}
+#rightshade {
+
+
+    right: 0px;
+
+    
+}
+.dualsided-page {   
+    background-color: rgb(194, 200, 206);
+    height: 85.9%;
+    width: 100px;
+    display: flex;
+    position: absolute;
+    top: 14%;
+    z-index: 2 ;
+
+
+
+}
